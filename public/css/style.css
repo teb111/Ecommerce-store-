@@ -1,0 +1,45 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+
+.file {
+	display: none;
+}
+
+#file-label {
+	display: block;
+	width: 100%;
+	padding: 1.1rem 1rem;
+	border: 1px solid grey;
+	border-radius: 3px;
+	font-size: 1.2rem;
+	text-align: left;
+}
+
+.upload-icon {
+	margin-right: 1.5rem;
+	font-size: 1.7rem;
+	color: black;
+}
+
+#file-label:hover {
+	cursor: pointer; 
+}
+
+.btn {
+	display: block;
+	width: 100%;
+	padding: 10px;
+	border-radius: 18px;
+	background: none;
+	color: black;
+	border-color: grey;
+	transition: all 0.7s linear;
+	margin: 5px;
+}
+
+.btn::hover {
+   background-color: rgba(122, 222, 112, .9);
+}
